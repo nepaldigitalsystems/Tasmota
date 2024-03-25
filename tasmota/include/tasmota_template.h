@@ -217,6 +217,7 @@ enum UserSelectablePins {
   GPIO_MAGIC_SWITCH,                    // MagicSwitch as in Sonoff BasicR4
   GPIO_PIPSOLAR_TX, GPIO_PIPSOLAR_RX,   // pipsolar inverter
   GPIO_LORA_CS, GPIO_LORA_RST, GPIO_LORA_BUSY, GPIO_LORA_DI0, GPIO_LORA_DI1, GPIO_LORA_DI2, GPIO_LORA_DI3, GPIO_LORA_DI4, GPIO_LORA_DI5,  // LoRa SPI
+  GPIO_MCP39F511_TX, GPIO_MCP39F511_RX, GPIO_MCP39F511_RST,
   GPIO_SENSOR_END };
 
 // Error as warning to rethink GPIO usage with max 2045
